@@ -9,39 +9,39 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
-      title: Add Extension
+      developer_text: "Ben jij een Developer?, Je kan <a>hier</a> lezen hoe je je eigen extensies maakt."
+      install_text: "In de tussentijd kunt u extensies zoeken op de <a> Flarum Community site </a> en ze handmatig installeren met Composer."
+      temporary_text: "Uiteindelijk zal dit dialoogvenster het uitbreiden van je forum makkelijker maken. Wij zijn er druk mee bezig!"
+      title: Extensie toevoegen
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
+      colored_header_label: Gekleurde Header
+      colors_heading: Kleuren
+      colors_text: "Kies 2 kleuren voor het thema van je forum. De eerst zal gebruikt worden voor de meeste teksten, de andere wordt gebruikt voor achtergrond elementen"
       custom_header_heading: Custom Header
-      custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+      custom_header_text: "Voeg HTML toe. Dit word bovenaan de pagina, boven Flarum's eigen header weergegeven
       custom_styles_heading: Custom Styles
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
-      edit_css_button: Edit Custom CSS
-      edit_header_button: Edit Custom Header
-      enter_hex_message: Please enter a hexadecimal color code.
+      custom_styles_text: Pas het uiterlijk van je forum aan door je eigen LESS/CSS code toe te voegen bovenop Flarum's standaard stijlen.
+      dark_mode_label: Donkere modus
+      edit_css_button: Verander Custom CSS
+      edit_header_button: Verander Custom Header
+      enter_hex_message: Vul een hexadecimale kleurcode in.
       favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
+      favicon_text: Upload een afbeelding die word weergegeven als het snelkoppelingspictogram van het forum.
       logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
+      logo_text: Upload een afbeelding die word weergegeven in plaats van de forum titel.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
+      default_language_heading: Standaard taal
+      forum_description_heading: Forum beschrijving
+      forum_description_text: Leg in het kort je forum uit. Dit zal gebruikt worden voor meta tag en zoekmachines.
+      forum_title_heading: Forum Titel
+      home_page_heading: Home Pagina
+      home_page_text: "Kies de pagina die gebruikers zien als ze naar je forum gaan. If entering a custom value, use the path relative to the forum root."
       saved_message: Your changes were saved.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Welcome Banner
